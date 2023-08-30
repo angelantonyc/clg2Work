@@ -1,0 +1,25 @@
+{
+    "meals":[
+        {
+            "mealItem":"Sandwich",
+            "image":"https://cdn.pixabay.com/photo/2022/02/12/21/22/toast-7009956_1280.jpg",
+            "description":"Best breakfast",
+            "rating":3,
+            "haveTried":true
+        },
+        {
+          "mealItem": "Chicken Biriyani",
+          "image": "https://cdn.pixabay.com/photo/2021/02/21/18/15/biriyani-6037375_1280.jpg",
+          "description": "Best lunch",
+          "rating": 5,
+          "haveTried": true
+        },
+        {
+          "mealItem": "Chicken Parmigiana",
+          "image": "https://cdn.pixabay.com/photo/2019/12/24/06/37/lunch-4716098_1280.jpg",
+          "description": "Best dinner",
+          "rating": 0,
+          "haveTried": false
+        }
+    ]
+}

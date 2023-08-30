@@ -1,24 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import FoodList from './components/List/List';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 style={{ color: "green" }}>Does somebody say FOOD?</h1>
+      <h2 style={{ color: "green" }}>Feel free to try ..Must Try Dishes</h2>
+      <FoodList />
+      {/* <p>What about a movie after dinner? Here is my favorite movie list</p>
+      <button>Movies</button> */}
     </div>
+   
   );
 }
 
