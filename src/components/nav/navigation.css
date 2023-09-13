@@ -1,0 +1,30 @@
+li {
+  display: inline-block;
+  padding: 0 20px;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #ea5466;
+}
+li a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: rgb(9, 10, 8);
+}
+
+li a:hover {
+  text-decoration: overline;
+  color: rgb(213, 204, 204);
+}
+.activeStyle {
+  color: #fff;
+  /* text-decoration: overline; */
+}
+
+.inactiveStyle {
+  color: #070707;
+  text-decoration: none;
+}
